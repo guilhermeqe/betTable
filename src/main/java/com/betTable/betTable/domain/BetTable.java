@@ -24,6 +24,8 @@ public class BetTable {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
+
+
     @Column(name = "mercado")
     private String mercado;
 
